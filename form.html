@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <section> <h3>Have an account? <a href="logIn.html" >Log in</a></h3>
+        </section>
+
+        <h1>Sign up</h1>
+        
+        <div>
+            <label for="nameandsurname"></label><br>
+            <input type="text" 
+            name="name surname"
+            placeholder="FullName"
+            autocomplete="off"
+            id="nameandsurname"
+            minlength="3"
+            required
+            value="Achraf Gasimov"
+            >
+        </div>
+        <div>
+            <label for="email">Did you mean <a href="mailto:ashrafsg@code.edu.az">ashrafsg@code.edu.az</a></label><br>
+            <input type="email" 
+            name="email"
+            placeholder="@gmail.com"
+            id="email"
+            autocomplete="off"
+            required
+            >
+        </div>         
+        <div>
+            
+            <label for="email"></label><br>
+            <input type="email" 
+            name="email"
+            placeholder="Re-enter email"
+            id="email"
+            autocomplete="off"
+            required 
+            >
+        </div>
+
+        <div>
+            <label for="password"></label><br>
+            <input type="password"
+            name="password"
+            placeholder="Password"
+            id="password"
+            maxlength="16"
+            minlength="4"
+            required
+            >
+        </div>
+
+        <div>
+            <label for="password"></label><br>
+            <input type="password"
+            name="password"
+            placeholder="Re-enter password"
+            id="password"
+            maxlength="16"
+            minlength="4"
+            required
+            >
+        </div>
+        <br>
+
+        <!-- <div>
+            <label for="checkbox">Receive our weekly newsletter and other <br> occasional updates</label>
+            <input type="checkbox" 
+            name="checkbox"
+            id="checkbox">
+
+        </div> -->
+
+        <div class="checkbox"> <input type="checkbox" id="checkbox">Receive our weekly newsletter <br/> and other
+            occasional updates</div>
+ 
+            <br>
+        <div>
+            <button>Create your account</button>
+        </div>
+        
+         
+    </form>
+
+</body>
+</html>

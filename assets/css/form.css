@@ -1,0 +1,17 @@
+ body {
+     display: flex;
+     justify-content: center;
+ }
+ a {
+      color: blue;
+ }
+
+ button {
+    border-width: 0ch; 
+    background-color: rgb(92, 170, 14);
+     color: aliceblue;
+ }
+
+ input [text] {
+     border-radius: 34px;
+ }
